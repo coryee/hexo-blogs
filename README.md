@@ -5,9 +5,25 @@ git clone git@github.com:coryee/hexo-blogs.git
 
 cd hexo-blogs
 
-npm install
 ```
 
+## 首次初始化
+```shell
+sudo npm install -g hexo-cli
+hexo init
+npm install
+```
+初始化完成后，将在目录下生成如下信息：
+```shell
+.
+├── _config.yml
+├── package.json
+├── scaffolds
+├── source
+| 	├── _drafts
+|	└── _posts
+└── themes
+```
 
 
 # hexo 命令使用
@@ -33,3 +49,4 @@ npm install
 Refs:
 
 [GitHub+Hexo+Next搭建博客 | 于禤的博客 (yxyuxuan.github.io)](https://yxyuxuan.github.io/2019/07/16/GitHub-Hexo-Next搭建博客/)
+
